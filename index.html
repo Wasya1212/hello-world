@@ -2,35 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Hello World!</title>
-    <link rel="shortcut icon" href="icons8-heart-outline-64.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css"></link>
+    <title>Lessons List Page</title>
+    <link rel="shortcut icon" href="assets/icons/icons8-heart-outline-64.png" type="image/x-icon">
   </head>
   <body>
     <header class="header">
-      <h1 class="header__title">First task of the course "HTML / CSS / JS Fundamentals"</h1>
+        <center>
+            <nav class="main-navigation">
+                <a nohref>Frontpage</a>
+                <a href="lesson0/index.html">Lesson0</a>
+                <a href="lesson1/index.html">Lesson1</a>
+                <a href="lesson2/index.html">Lesson2</a>
+            </nav>
+        </center>
     </header>
+    <hr>
     <main class="content">
-      <article class="greeting-message">
-        <header>
-          <h3>Welcome!</h3>
-          <p>I am glad to welcome you to my website.</p>
-        </header>
-        <section class="greeting-message__picture-container">
-          <figure>
-            <p><img src="panda.jpg" alt="greeting image" /></p>
-            <figcaption>Panda is glad to see you)</figcaption>
-          </figure>
+        <section>
+            <header>
+                <h1>Choose your lesson... PLS)</h1>
+            </header>
         </section>
-        <div class="greeting-message__question">
-          <strong class="question">Did I do well?</strong>
-        </div>
-      </article>
+        <menu>
+            <li>Lesson 0: Test task - <i><a href="lesson0/index.html">follow</a></i></li>
+            <li>Lesson 1: Mockup - <i><a href="lesson1/index.html">follow</a></i></li>
+            <li>Lesson 2: Simple HTML page (Tag learning) - <i><a href="lesson2/index.html">follow</a></i></li>
+        </menu>
     </main>
+    <hr>
     <footer class="footer">
-      <center>
-        <span class="footer__copyright copyright">Copyright 2020. Designed & produced by Wasya1212</span>
-      </center>
+        <center>
+            <span class="footer__copyright copyright">Copyright 2020. Designed & produced by Wasya1212</span>
+        </center>
     </footer>
   </body>
 </html>
